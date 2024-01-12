@@ -1,11 +1,11 @@
 const Scheema=()=>{
     return(
-    <div className='flex flex-col justify-around border rounded-lg px-3 py-4 shadow items-center bg-white'>
+    <div className='flex flex-col flex-wrap justify-around border rounded-lg px-3 py-4 shadow items-center bg-white'>
           <h2 className="text-base mt-6 text-center justify-center font-normal   ">
             <span className='border rounded-md px-3 py-1   text-gray-700' >Schema</span></h2>
-          <table className="w-full mb-12 rounded-sm border border-separate border-tools-table-outline">
+          <table className="flex flex-wrap w-full mb-12 rounded-sm border border-separate border-tools-table-outline overflow-auto">
             {/* Placeholder for table header */}
-            <thead >
+            <thead className="">
               <tr className=' '>
                 <th className=" border  p-2">Column 1</th>
                 <th className=" border  p-2">Column 2</th>
@@ -14,7 +14,7 @@ const Scheema=()=>{
                 {/* Add more columns as needed */}
               </tr>
             </thead>
-            <tbody>
+            <tbody className="">
               <tr className="text-center text-md font-serif text-gray-700">
               {/* Placeholder for table rows */}
               <td className="border p-2">Employee Id</td>

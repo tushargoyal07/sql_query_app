@@ -127,10 +127,10 @@ console.time('myoperation')
 
   return (
     
-    <div className='bg-[#f9f7f7] min-h-screen'>
-      <div className=" mx-14 p-4 items-center ">
+    <div className='md:bg-[#f9f7f7] justify-center '>
+      <div className=" mx-4 sm:mx-6 md:mx-14 p-4 items-center">
 
-        <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-4 justify-between my-3 '>
+        <div className='grid md:grid-cols-2 xs:grid-cols-1 gap-4 justify-between my-3  '>
           <Scheema />
           <div className='flex-inline w-full border rounded-lg px-3 py-4 shadow bg-white'>
             <QuerySelector queries={predefinedQueries} onQuerySelect={handleQuerySelect} />

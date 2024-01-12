@@ -15,11 +15,11 @@ export const QueryResults: React.FC<QueryResultsProps> = ({ results }) => {
 
 
   return (
-    <div className="my-10  border rounded-md shadow px-5 py-4 bg-white">
+    <div className="my-10 w-full object-cover border rounded-md shadow px-5 py-4 bg-white">
       <h2 className="text-base justify-center text-center font-normal mb-4 ">
       <span className='border rounded-md px-3 py-1   text-gray-700' >QUERY RESULTS</span>
       </h2>
-      <table className="w-full border rounded-sm  border-separate border-tools-table-outline ">
+      <table className="flex flex-wrap w-full border rounded-sm  border-separate border-tools-table-outline overflow-auto ">
         {/* Placeholder for table header */}
         <thead className='font-bold text-center justify-center  ' >
           <tr>
