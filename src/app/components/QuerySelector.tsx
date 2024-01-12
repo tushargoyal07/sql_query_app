@@ -36,7 +36,6 @@ const QuerySelector: React.FC<QuerySelectorProps> = ({ queries, onQuerySelect })
          
         )
         )}
-       
       </select>
     </div>
   );
