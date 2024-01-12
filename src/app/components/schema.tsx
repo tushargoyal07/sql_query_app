@@ -3,7 +3,7 @@ const Scheema=()=>{
     <div className='flex flex-col flex-wrap justify-around border rounded-lg px-3 py-4 shadow items-center bg-white'>
           <h2 className="text-base mt-6 text-center justify-center font-normal   ">
             <span className='border rounded-md px-3 py-1   text-gray-700' >Schema</span></h2>
-          <table className="flex flex-wrap w-full mb-12 rounded-sm border border-separate border-tools-table-outline overflow-auto">
+          <table className="w-full mb-12 rounded-sm border border-separate border-tools-table-outline xs:overflow-auto md:overflow-hidden">
             {/* Placeholder for table header */}
             <thead className="">
               <tr className=' '>
